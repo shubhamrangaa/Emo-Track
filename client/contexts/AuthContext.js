@@ -12,12 +12,12 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   function signup() {
+    const provider = new fireApp.auth().GoogleAuthProvider();
     return fireApp
       .auth()
       .signInWithPopup(provider)
       .then((result) => {
         var credential = result.credential;
-
         // This gives you a Google Access Token. You can use it to access the Google API.
         var token = credential.accessToken;
         // The signed-in user info.

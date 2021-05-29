@@ -1,0 +1,24 @@
+.journalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 4rem;
+    color: #ff96ad;
+  }
+}
+
+.emojiContainer {
+  display: flex;
+  margin: 1rem;
+
+  .emoji {
+    font-size: 5rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: 0.2s ease;
+    &:hover {
+      background-color: #ff96ad;
+    }
+  }
+}
