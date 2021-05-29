@@ -4,7 +4,6 @@ import Image from "next/image";
 import styled from "styled-components";
 import styles from "../styles/TIGOLBITTIES.module.scss";
 
-
 const FormContainer = styled.section`
   background: black;
   color: white;
@@ -15,34 +14,37 @@ const FormContainer = styled.section`
 `;
 
 const FormHeading = styled.section`
-  
   color: white;
   font-size: 2em;
-    text-align:center;
+  text-align: center;
   padding: 1em 0em 1em 0em;
   border-radius: 20px;
 `;
 
 export default function Login() {
-    return (
-
+  return (
+    <div>
+      <FormContainer>
+        <FormHeading>Login</FormHeading>
         <div>
-            <FormContainer>
-                <FormHeading>
-                    Login
-                </FormHeading>
-                <div>
-                    <form>
-                        <input class={styles.inputform} type="text" name="Username" placeholder="Username"></input>
-                        <br></br>
-                        <input class={styles.inputform} type="text" name="Password" placeholder="Password"></input>
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-            </FormContainer>
-            
-
+          <form>
+            <input
+              class={styles.inputform}
+              type="text"
+              name="Username"
+              placeholder="Username"
+            ></input>
+            <br></br>
+            <input
+              class={styles.inputform}
+              type="text"
+              name="Password"
+              placeholder="Password"
+            ></input>
+            <button type="submit">Submit</button>
+          </form>
         </div>
-      
-    );
-  }
+      </FormContainer>
+    </div>
+  );
+}
