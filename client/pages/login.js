@@ -2,17 +2,22 @@ import styled from "styled-components";
 import styles from "../styles/TIGOLBITTIES.module.scss";
 
 import firebaseApp from "../components/firebaseInit";
-import firebase from "firebase/app";
-import "firebase/auth";
-import "firebase/firestore";
+import { auth } from "../components/firebaseInit";
+// import firebase from "firebase/app";
+
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionDate } from "react-firebase-hooks/firestore";
+import { useAuth } from "../contexts/AuthContext";
 
-const auth = firebase.auth();
-const firestore = firebase.firestore();
+// const firestore = firebase.firestore();
 
 export default function Login() {
-  const user = useAuthState(auth);
+  const { signup } = useAuth();
+  // const user = useAuthState(auth);
+
+  function handleSubmit() {
+    signup();
+  }
   return (
     <div>
       <section>
@@ -35,16 +40,16 @@ export default function Login() {
             <button type="submit">Submit</button>
           </form>
         </div> */}
-        <Signin></Signin>
+        <button onClick={handleSubmit}>Sign in with Google</button>;
       </section>
     </div>
   );
 }
 
-function Signin() {
-  const signInWithGoogle = () => {
-    const provider = new firebase.auth.GoogleAuthProvider();
-    auth.signInWithPopup(provider);
-  };
-  return <button onClick={signInWithGoogle}>Sign in with Google</button>;
-}
+// function Signin() {
+//   const signInWithGoogle = () => {
+//     const provider = new firebase.auth.GoogleAuthProvider();
+//     auth.signInWithPopup(provider);
+//   };
+//   return <button onClick={handleSubmit}>Sign in with Google</button>;
+// }
