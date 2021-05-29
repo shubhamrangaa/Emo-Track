@@ -1,0 +1,13 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 1350px;
+  .navItem {
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
+}
