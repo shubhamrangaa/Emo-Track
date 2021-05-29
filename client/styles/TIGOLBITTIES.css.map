@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,KAAK;CAC1B",
+    "sources": [
+        "TIGOLBITTIES.scss"
+    ],
+    "names": [],
+    "file": "TIGOLBITTIES.css"
+}

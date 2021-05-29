@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <HomeContainer>
       <h1>Emo Track</h1>
+      
     </HomeContainer>
   );
 }
