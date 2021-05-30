@@ -1,6 +1,6 @@
 # Emo-Track
 
-![Test Image 1](Rectangle-2.png)
+![Test Image 1](Rectangle-2.png=250x250)
 
 # 💡Inspiration
 
