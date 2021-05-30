@@ -22,15 +22,12 @@ export default function Home() {
           person.
         </p>
         {/* <Link href="./login"> */}
-        <a>Get Started</a>
+        <a href="#" target="_blank">
+          Get Started
+        </a>
       </section>
       <section className={styles.resourcesContainer}>
-        <h2> Resources </h2>
-        <article className={styles.resourceItemContainer}>
-          <article>Resource 1</article>
-          <article>Resource 1</article>
-          <article>Resource 1</article>
-        </article>
+        <h2> Download Our App! </h2>
       </section>
     </section>
   );
