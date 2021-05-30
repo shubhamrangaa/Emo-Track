@@ -1,11 +1,7 @@
-# Emo-Track
-
-![Test Image 1](Rectangle-2.png)
-
 # 💻 Project Name
-How You Doin'?
+## How You Doin'?
 # 🚀 Tagline
-**Improving Mental Health One Click at a Time!**
+## Improving Mental Health One Click at a Time!
 # 💡 The Problem it solves
 
 Mental health is often an overlooked and stigmatized issue in many developing countries, in spite of its prevalence. According to a World Health Organisation (WHO) Report, major or minor mental illnesses requiring expert intervention is 7.5 per cent of India’s population. Also, estimates show that of roughly 60 million people with mental illnesses, about 90 per cent are currently not receiving treatment in India. The Covid-19 pandemic has highlighted the urgent need for reinvestment in mental health, as altered daily routines, financial pressures, extensive social isolation and information overload continues to take its toll on mental health.
@@ -21,7 +17,6 @@ Studies do show, however, that the population has begun to take mental health se
 We witnessed a huge gap with the needs and the existing solutions hence, created **How You Doin'?**
 
 # 💻 Brief Description of Product :
-
 Our solution has two parts:
 Web - application
 Android application
@@ -30,7 +25,14 @@ We plan to develop these applications to create a seamless ecosystem for our use
 
 We also provide a graphical representation of the monthly/annual moods of the user in the form of graphs and pie charts.
 
-# 🔨 Technologies Used :
+# 🧠 Challenges we ran into
+• Time constraints, figuring out how to successfully incorporate all the features we wanted. 
+• Integrating the firebase database and the Authentication Function into a single web solution and a complimentary flutter app.
+• Designing a scalable architecture without compromising much in security and still maintaining fast deliverability.
+• To deploy the flask app to the server was a cumbersome process as it was the first time that we accomplished it as a team.
+• Lastly, maintaining a development process simultaneously from UI design, front-end & back-end for the Web app and the mobile flutter app was a major management problem to overcome.
+
+# 🔨 Technologies We Used :
 
 - Python Libraries 
 - Machine Learning Libraries 
@@ -45,17 +47,10 @@ We also provide a graphical representation of the monthly/annual moods of the us
 - SCSS 
 - Figma
 
+# 🔗 Links
 
-# 🧠 Challenges we ran into
-• Time constraints, figuring out how to successfully incorporate all the features we wanted. 
-• We were using Chrome Storage API for the first time and had a hard time figuring out it's functionalities
+# 🎥 Video Demo
 
-# 🏅 Accomplishments that we're proud of
-We are proud that we are able to create a solution which can help our generation and anybody who are facing any problem with their mental health.
+# 📷 Pictures
+![Test Image 1](Rectangle-2.png)
 
-# 📖 What we learned
-We being a team of inexperienced developers got to learn a lot about the nuances of JavaScript, Chrome Local Storage API and we also used SCSS for the first time in this project. This hackathon has given us a lot of exposure to the world of Web Development and creating practical solutions. 
-
-# 🚀 What's next for *How You Doin'?*
-• We plan to add Sentiment Analysis using Natural Language Processing to the mood description of the person. 
-• We also plan to read the major problems from the mood description and provide the solution according to the most frequent problems.
