@@ -2,7 +2,11 @@
 
 ![Test Image 1](Rectangle-2.png)
 
-# 💡Inspiration
+# 💻 Project Name
+How You Doin'?
+# 🚀 Tagline
+**Improving Mental Health One Click at a Time!**
+# 💡 The Problem it solves
 
 Mental health is often an overlooked and stigmatized issue in many developing countries, in spite of its prevalence. According to a World Health Organisation (WHO) Report, major or minor mental illnesses requiring expert intervention is 7.5 per cent of India’s population. Also, estimates show that of roughly 60 million people with mental illnesses, about 90 per cent are currently not receiving treatment in India. The Covid-19 pandemic has highlighted the urgent need for reinvestment in mental health, as altered daily routines, financial pressures, extensive social isolation and information overload continues to take its toll on mental health.
 
