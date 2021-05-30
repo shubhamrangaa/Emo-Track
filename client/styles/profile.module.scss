@@ -4,22 +4,11 @@
   align-items: center;
   h1 {
     font-size: 4rem;
-    color: #ff8bff;
+    color: #ff96ad;
   }
 }
 
 .heatMapContainer {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  .heatMapItem {
-    width: 20px;
-    height: 20px;
-    margin: 0.2rem;
-  }
-  .happy {
-    width: 20px;
-    height: 20px;
-    background: black;
-    margin: 0.2rem;
-  }
 }

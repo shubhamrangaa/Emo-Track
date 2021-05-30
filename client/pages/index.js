@@ -9,7 +9,9 @@ export default function Home() {
     <section>
       <Navbar></Navbar>
       <section className={styles.heroContainer}>
-        <h1>How you doin'?</h1>
+        <h1>
+          Improving your Mental Health,<br></br> One click at a time!
+        </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -21,6 +23,14 @@ export default function Home() {
         </p>
         {/* <Link href="./login"> */}
         <a>Get Started</a>
+      </section>
+      <section className={styles.resourcesContainer}>
+        <h2> Resources </h2>
+        <article className={styles.resourceItemContainer}>
+          <article>Resource 1</article>
+          <article>Resource 1</article>
+          <article>Resource 1</article>
+        </article>
       </section>
     </section>
   );

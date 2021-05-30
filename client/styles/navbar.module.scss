@@ -1,13 +1,29 @@
 .navContainer {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   max-width: 1350px;
+  margin: 0 auto;
+
   .navItem {
-    background-color: blueviolet;
-    color: white;
-    padding: 0.5rem;
+    background-color: #fff;
+    color: black;
+    padding: 0.5rem 0.75rem;
     margin: 1rem;
     cursor: pointer;
+    border: #ff96ad solid 2px;
+    border-radius: 0.35rem;
+    transition: 0.2s ease-in;
+    &:hover {
+      background-color: #ff96ad;
+      color: white;
+    }
+  }
+
+  .navLinks {
+  }
+  img {
+    width: 100px;
+    height: 100px;
   }
 }
