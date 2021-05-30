@@ -54,6 +54,11 @@ We also provide a graphical representation of the monthly/annual moods of the us
 
 # 🔗 Links
 
+- https://how-you-doin-app.herokuapp.com/
+- https://emo-track.vercel.app/
+- https://www.figma.com/file/NFm2TYmKCx2fDbmInxzozH/How-You-Doin%27%3F?node-id=0%3A1
+-
+
 # 🎥 Video Demo
 
 # 📷 Pictures
