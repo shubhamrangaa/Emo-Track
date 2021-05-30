@@ -6,8 +6,10 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <nav className={styles.navContainer}>
-        <a className={styles.navItem}>Resources</a>
-        
+        <Link href="./">
+          <a className={styles.navItem}>Resources</a>
+        </Link>
+
         <Link href="./journal">
           <a className={styles.navItem}>Mini Journal</a>
         </Link>
