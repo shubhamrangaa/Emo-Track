@@ -61,6 +61,9 @@ We also provide a graphical representation of the monthly/annual moods of the us
 
 # 🎥 Video Demo
 
+- https://www.youtube.com/watch?v=XVVm1w_qiUY
+- https://www.youtube.com/watch?v=n38mKC6mtcE
+
 # 📷 Pictures
 
 ![Test Image 1](Rectangle-2.png)
