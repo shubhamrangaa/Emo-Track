@@ -13,13 +13,13 @@ export default function Home() {
           Improving your Mental Health,<br></br> One click at a time!
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+          In these difficult times, a lot of people around the world suffered
+          from various mental health-related issues. We came across this problem
+          when a campaign related to it was being run at our University. On
+          in-depth research, our team found out that in spite of mental health
+          being extremely crucial for the overall development of the person
+          there existed a very few to none solution fulfilling the demand of the
+          person.
         </p>
         {/* <Link href="./login"> */}
         <a>Get Started</a>
