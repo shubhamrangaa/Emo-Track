@@ -1,0 +1,67 @@
+.heroContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroContainer h1 {
+  color: #222222;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.heroContainer p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heroContainer a {
+  font-size: 2rem;
+  background-color: #ff96ad;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.45rem;
+  cursor: pointer;
+}
+
+.resourcesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15rem;
+}
+
+.resourcesContainer h2 {
+  color: #222222;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.resourcesContainer .resourceItemContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=home.module.css.map */

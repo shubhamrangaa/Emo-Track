@@ -40,6 +40,7 @@ export default function Journal() {
   const emojiClick = (param, e) => {
     console.log(param);
     setEmoji(param);
+    
   };
 
   return (
@@ -48,29 +49,30 @@ export default function Journal() {
       <div className={styles.journalContainer}>
         <h1> How do you feel today?</h1>
         <div className={styles.emojiContainer}>
-          <button
-            className={styles.emoji}
+          <button 
+          
+            className={styles.emoji1}
             //   onClick={emojiClick(value)}
             onClick={(e) => emojiClick("elated", e)}
           >
             🥳
           </button>
-          <button
-            className={styles.emoji}
+          <button id="happy"
+            className={styles.emoji2}
             //   onClick={emojiClick(value)}
             onClick={(e) => emojiClick("happy", e)}
           >
             😀
           </button>
-          <button
-            className={styles.emoji}
+          <button id="angry"
+            className={styles.emoji3}
             //   onClick={emojiClick(value)}
             onClick={(e) => emojiClick("angry", e)}
           >
             🤬
           </button>
           <button
-            className={styles.emoji}
+            className={styles.emoji4}
             //   onClick={emojiClick(value)}
             onClick={(e) => emojiClick("depressed", e)}
           >
@@ -99,9 +101,20 @@ export default function Journal() {
           {/* <button type='submit' onClick={addtodo}>Add</button> */}
         </form>
 
-        <ul>
+        <ul className={styles.notes_container} >
           {emotionNote.map((todo) => (
-            <li key={todo.id}>{todo.todo}</li>
+
+            <div className={styles.note_container_item}>
+              <p key={todo.id}  className={styles.note_item_text}>{todo.todo}
+              
+              {/* <li>
+              {todo.id}
+              </li> */}
+
+              
+              </p>
+            </div>
+            
           ))}
         </ul>
       </div>
